@@ -6,7 +6,7 @@
 BACKUP_DIR="/opt/backups/nginx"
 DATE=$(date +%Y-%m-%d_%H-%M-%S)
 NGINX_CONF_DIR="/etc/nginx"
-LOG_FILE="/var/log/nginx-backup.log"  # 🆕 Лог-файл
+LOG_FILE="$BACKUP_DIR/backup.log"  # 🆕 Лог-файл
 
 # Создаём папку для бэкапов (не требует sudo, т.к. /opt/backups в нашей зоне)
 mkdir -p "$BACKUP_DIR"

@@ -25,3 +25,4 @@ fi
 
 echo "Резервное копирование завершено успешно"
 # Изучаем Git flow
+# Update from server1
